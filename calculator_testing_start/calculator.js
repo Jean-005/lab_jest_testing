@@ -18,7 +18,9 @@ const modulus = function(number1, number2){
     return number1 % number2;
 };
 
-const even = null;
+const even = function(number){
+    return number % 2 === 0;
+};
 
 const odd = null;
 
