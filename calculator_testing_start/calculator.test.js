@@ -155,4 +155,23 @@ describe('even', () => {
 
 describe('odd', () => {
 
+  test('can check if a small positive number is odd', () => {
+    expected = false;
+    actual = odd(6);
+    expect(actual).toBe(expected); 
+  });
+
+  test('can check if a large positive number is odd', () => {
+    expected = true;
+    actual = odd(501);
+    expect(actual).toBe(expected); 
+ });
+
+ test('can check if a negative number is odd', () => {
+  expected = false;
+  actual = odd(-500,);
+  expect(actual).toBe(expected); 
+
+ });
+
 });
