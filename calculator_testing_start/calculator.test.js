@@ -34,12 +34,32 @@ describe('sum', () => {
     expect(actual).toBe(expected); 
     
   });
-
+  
 });
 
 describe('subtract', () => {
 
+  test('can subtract two small positive numbers', () => {
+    expected = 2;
+    actual = subtract(4, 2);
+    expect(actual).toBe(expected); 
+  });
+
+  test('can subtract two large positive numbers', () => {
+    expected = 300;
+    actual = subtract(500, 200);
+    expect(actual).toBe(expected); 
+ });
+
+ test('can add zero', () => {
+  expected = 200;
+  actual = subtract(200, 0);
+   expect(actual).toBe(expected); 
+
+ });
+
 });
+
 
 describe('multiply', () => {
 
