@@ -1,8 +1,9 @@
-const sum = function(a, b){
-    return a + b;
+const sum = function(number1, number2){
+    return number1 + number2;
 };
 
 const subtract = null;
+
 
 const multiply = null;
 
