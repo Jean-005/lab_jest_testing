@@ -16,19 +16,19 @@ describe('sum', () => {
     expect(actual).toBe(expected);
   });
 
-  test.skip('can add two large positive numbers', () => { 
+  test('can add two large positive numbers', () => { 
     expected = 270;
     actual = sum(120, 150);
     expect(actual).toBe(expected); 
   });
 
-  test.skip('can add two negative numbers', () => {
+  test('can add two negative numbers', () => {
     expected = -22;
     actual = sum(-12, -10);
     expect(actual).toBe(expected); 
   });
 
-  test.skip('can add zero', () => {
+  test('can add zero', () => {
     expected = 200;
     actual = sum(200, 0);
     expect(actual).toBe(expected); 

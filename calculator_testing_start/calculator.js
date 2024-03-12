@@ -4,7 +4,6 @@ const sum = function(number1, number2){
 
 const subtract = null;
 
-
 const multiply = null;
 
 const divide = null;
