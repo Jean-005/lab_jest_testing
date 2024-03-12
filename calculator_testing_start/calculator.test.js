@@ -107,7 +107,27 @@ describe('divide', () => {
 
 });
 
+
 describe('modulus', () => {
+
+  test('can find the modulo of two small numbers', () => {
+    expected = 1;
+    actual = modulus(9, 2);
+    expect(actual).toBe(expected); 
+  });
+
+  test('can find the modulo of two large numbers', () => {
+    expected = 20;
+    actual =  modulus(500, 120);
+    expect(actual).toBe(expected); 
+ });
+
+ test('can find the modulo of two negative numbers', () => {
+  expected = -20;
+  actual = modulus(-500, -120);
+  expect(actual).toBe(expected); 
+
+ });
 
 });
 
